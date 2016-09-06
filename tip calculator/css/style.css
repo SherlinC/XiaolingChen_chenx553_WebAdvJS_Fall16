@@ -1,0 +1,40 @@
+.calculator {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #f9f5f5;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+#title{
+    font-size: 50px;
+    color: rgb(175, 123, 123);
+    background: rgb(226, 193, 193);
+    margin-left: 30%;
+    width: 40%;
+}
+
+.amount-field {
+    width: 120px;
+    padding: 4px;
+    font-size: 20px;
+    color: #e2a7a7;
+}
+#reference{
+    padding: 4px;
+    font-size: 20px;
+    color: #af7b7b;
+}
+#ref{
+    padding: 4px;
+    font-size: 20px;
+    color: #af7b7b;
+}
+#cal{
+    padding: 4px;
+    font-size: 20px;
+    color: #8c8787;
+}
+
+
