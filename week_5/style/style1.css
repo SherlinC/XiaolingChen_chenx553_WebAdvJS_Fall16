@@ -1,0 +1,143 @@
+
+.icon_home{
+  display:inline-block;
+  margin-top: 40px;
+  margin-left: 130px;
+  /*background-color: #0F9140;*/
+  width: 80px;
+  height: 80px;
+  transition: all 0.3s ease-in-out;
+} 
+
+.icon_home:hover{
+  transform: rotate(90deg);
+}
+
+.nav_holder{
+  width:450px;
+  float:right;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.clear_float{
+  clear:both;
+}
+
+.nav_links{
+  display:inline-block;
+ /* margin-left: 60px;*/   
+}
+.nav_links>li{
+  margin-top: 10px;
+  font-size:22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display:inline-block;
+  padding:16px;
+
+}
+
+.p1_text{
+  /*display:inline-block;*/
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 130px;
+  color:#3F3F3F;
+  font-size:85px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*.icon_right{
+  display:inline-block;
+  float:right;
+  margin-top: 110px;
+  margin-right: 8%;
+
+  width: 580px;
+  height: 580px;
+} 
+*/
+.p4_text{ 
+  top:0px;
+  margin-top: 0px;
+  margin-left: 56%;
+  margin-right: 10%;
+  color:#3F3F3F;
+  font-size:26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+}
+.p5_text{
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 120px;
+  color:#3F3F3F;
+  font-size:26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+
+body{
+  background-color: #FFAB9F;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+  body{
+    background-color: #FFE9C0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  body{
+    /*background-color: #E8C5D8;*/
+    background-color: #DAFFCF;
+  }
+}
+
+/* FOR MOBILE */
+
+/*Source for different devices http://cssmediaqueries.com/target/*/
+@media all and (max-device-width: 480px) and (orientation: portrait){
+  body{
+    background-color: #EEFFEC;
+  }
+  h1 {
+    font-size: 112px;
+  }
+}
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+@media all and (max-device-width: 480px) and (orientation: landscape),
+all and (max-device-height: 480px) and (orientation: landscape){
+  body{
+    background-color: #E8C5D8;
+  }
+  h1 {
+    font-size: 112px;
+  }
+}
