@@ -1,0 +1,31 @@
+
+
+    var film = [
+    {"text":"张国荣","size":140},{"text":"纵横四海","size":85},
+    {"text":"星月童话","size":40},{"text":"红楼春上春","size":15},
+    {"text":"狗咬狗骨","size":10},{"text":"爱情故事","size":15},
+    {"text":"喝采","size":20},{"text":"柠檬可乐","size":15},
+    {"text":"失业生","size":15},{"text":"冲激21","size":15},
+    {"text":"烈火青春","size":35},{"text":"杨过与小龙女","size":15},
+    {"text":"第一次","size":15},{"text":"鼓手","size":15},
+    {"text":"三文治","size":35},{"text":"圣诞快乐","size":45},
+    {"text":"缘分","size":65},{"text":"龙凤智多星","size":30},
+    {"text":"为你钟情","size":120},{"text":"求爱反斗星","size":55},
+    {"text":"英雄本色","size":90},
+    {"text":"偶然","size":15},{"text":"倩女幽魂","size":70},
+    {"text":"杀之恋","size":10},{"text":"胭脂扣","size":40},
+    {"text":"新最佳拍档","size":20},{"text":"阿飞正传","size":65},
+    {"text":"豪门夜宴","size":45},{"text":"家有囍事","size":40},
+    {"text":"蓝江传之反飞组风云","size":10},{"text":"射雕英雄传之东成西就","size":25},
+    {"text":"霸王别姬","size":120},{"text":"白发魔女传","size":10},
+    {"text":"花田囍事","size":35},{"text":"锦绣前程","size":35},
+    {"text":"东邪西毒","size":75},{"text":"金枝玉叶","size":15},
+    {"text":"大富之家","size":15},{"text":"金玉满堂","size":35},
+    {"text":"夜半歌声","size":15},{"text":"新上海滩","size":20},
+    {"text":"色情男女","size":15},{"text":"大三元","size":35},
+    {"text":"风月","size":15},{"text":"春光乍泄","size":75},
+    {"text":"红色恋人","size":15},{"text":"九星报喜","size":15},
+    {"text":"安娜马德莲娜","size":15},{"text":"流星语","size":5},
+    {"text":"恋战冲绳","size":35},{"text":"枪王","size":15},
+    {"text":"烟飞烟灭","size":10},{"text":"异度空间","size":15}
+    ];
